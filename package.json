@@ -1,0 +1,58 @@
+{
+  "name": "kari-holdcroft-frontpage",
+  "version": "1.0.0",
+  "description": "Frontpage of my homepage",
+  "main": "App.jsx",
+  "homepage": "https://kariholdcroft.com/",
+  "scripts": {
+    "start": "npm run build:prod && npm run server",
+    "build:prod": "webpack --mode=production --env mode=prod",
+    "build:dev": "webpack --mode=development --env mode=dev",
+    "server": "webpack serve --mode development --env development --env mode=dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kari Holdcroft",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not IE 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-regenerator": "^7.13.15",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "autoprefixer": "^10.2.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.4",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "postcss": "^8.2.15",
+    "postcss-csso": "^5.0.1",
+    "postcss-loader": "^5.3.0",
+    "sass-loader": "^11.1.1",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.5.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.8.4",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.3",
+    "typed.js": "^2.0.12",
+    "yup": "^0.32.9"
+  }
+}

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("fonts/poppins-regular.woff2") format("woff2"),
+    url("fonts/poppins-regular.woff") format("woff");
+}
+
+/* lora-regular - latin */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("fonts/lora-regular.woff2") format("woff2"),
+    url("fonts/lora-regular.woff") format("woff");
+}
+/* lora-700 - latin */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("fonts/lora-700.woff2") format("woff2"),
+    url("fonts/lora-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("fonts/raleway-regular.woff2") format("woff2"),
+    url("fonts/raleway-regular.woff") format("woff");
+}

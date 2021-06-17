@@ -1,0 +1,25 @@
+.green-page-decoration {
+  height: calc(100vh + 6px);
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: -3px;
+  z-index: -1;
+  object-fit: cover;
+
+  @media (max-width: 2280px) {
+    width: 40%;
+  }
+
+  @media (max-width: 1920px) {
+    width: 30%;
+  }
+
+  @media (max-width: 1640px) {
+    width: 25%;
+  }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
