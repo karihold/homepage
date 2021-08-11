@@ -1,75 +1,27 @@
 @import "variables";
-
-.contact-form {
-  background-color: #fff;
-  padding: 40px;
-
-  max-width: 800px;
-
-  margin: 80px auto 0;
-
+.contact-section {
+  margin-top: 10%;
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   align-items: center;
+  justify-content: space-evenly;
+}
+.contact-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  width: 450px;
+  height: 450px;
+  transition: 0.1s ease-in-out;
 
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-
-  border-radius: 6px;
-
-  @media (max-width: 840px) {
-    margin: 80px 20px;
-  }
-
-  @media (max-width: 520px) {
-    padding: 20px 10px;
-
-    .input-label {
-      margin-bottom: 24px;
-
-      input {
-        height: 30px;
-        font-size: 16px;
-      }
-    }
+  &:hover {
+    transform: scale(0.95);
   }
 }
 
-.contact-textarea-label {
-  width: 100%;
-  font-size: 22px;
-
-  @media (max-width: 520px) {
-    font-size: 16px;
-  }
-}
-
-.contact-textarea {
-  width: 100%;
-  border-radius: 6px;
-  resize: none;
-  margin-bottom: 60px;
-  margin-top: 12px;
-  padding: 20px;
-  font-family: "Raleway";
-
-  @media (max-width: 520px) {
-    margin-bottom: 24px;
-  }
-}
-
-.contact-submit-button {
-  width: 100%;
-  background-color: $text-color-darkgreen;
-  color: #fff;
-  border-radius: 6px;
-  padding: 15px 12px;
-  border: none;
-  font-size: 27px;
-  font-family: "raleway";
-
-  cursor: pointer;
-
-  @media (max-width: 520px) {
-    font-size: 18px;
-  }
+.contact-icon {
+  width: 65%;
 }

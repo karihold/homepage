@@ -33,6 +33,7 @@ const Frontpage = () => {
         </p>
       </section>
       <section className="description-frontpage">
+        <div className="description-bg"> </div>
         <p className="frontpage-p">
           I started coding in 2018, this is a collection of some of my work so far. I am currently working as a Frontend
           Developer with a focus on UI / UX and design @Prevas Norway. I mostly work with HTML5, CSS3 and React.js. I

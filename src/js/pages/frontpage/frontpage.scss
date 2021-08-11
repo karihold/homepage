@@ -49,6 +49,9 @@ h1 {
   font-family: "Lora";
   font-weight: 400;
   font-size: 77px;
+  background: -webkit-linear-gradient(#408477, #025243);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .frontpage-h1 {
@@ -77,6 +80,9 @@ h1 {
   font-family: "Lora";
   font-size: 100px;
   margin-bottom: 100px;
+  background: -webkit-linear-gradient(#408477, #025243);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   @media (max-width: 1687px) {
     font-size: 70px;
@@ -105,24 +111,37 @@ h1 {
 
 .description-frontpage {
   margin: 400px auto;
+  width: 60%;
   display: flex;
   justify-content: center;
-  background-color: $text-color-darkgreen;
   color: #fff;
   border-radius: 4px;
   line-height: 2;
-
-  padding: 50px 50px;
+  padding: 31px 1px 170px 0px;
+  position: relative;
+  overflow: hidden;
 
   @media (max-width: 1522px) {
     margin: auto;
   }
 }
-
+.description-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#408477, #025243);
+  transform: skewY(-6deg);
+  transform-origin: top left;
+}
 .frontpage-p {
+  z-index: 1;
   padding-top: 50px;
   padding-bottom: 50px;
-  max-width: 1100px;
+  max-width: 65%;
   font-size: 26px;
 
   @media (max-width: 620px) {
