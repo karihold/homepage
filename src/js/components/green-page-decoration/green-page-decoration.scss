@@ -11,15 +11,12 @@
     width: 40%;
   }
 
-  @media (max-width: 1920px) {
-    width: 30%;
+  @media (max-width: 1522px) {
+    height: calc(30vh + 6px);
+    width: 100%;
   }
 
-  @media (max-width: 1640px) {
-    width: 25%;
-  }
-
-  @media (max-width: 1024px) {
-    display: none;
+  @media (max-width: 1440px) {
+    height: calc(25vh + 6px);
   }
 }
