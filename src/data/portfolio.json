@@ -1,4 +1,45 @@
 {
+  "art-history-app": {
+    "title": "Art History app",
+    "keywords": ["UX-design", "UI-design", "Figma"],
+    "description": "Art history app is created based on a UX-design prompt. The goal was to create an app that appeals to the broader public, but also caters to the users who use the gallery the most.",
+    "image": {
+      "name": "art-history.jpg",
+      "alt": "Art app promo image"
+    },
+    "links": {
+      "case_study": "https://kariholdcroft.com/case-study-art-history-app.pdf",
+      "prototype": "https://www.figma.com/proto/wwYr6TQUnkF26TobuzP4OX/Art-History-App?node-id=155%3A680&scaling=min-zoom&page-id=154%3A127&starting-point-node-id=155%3A680&show-proto-sidebar=1"
+    }
+  },
+
+  "apartment-website": {
+    "title": "Apartment website",
+    "keywords": ["UX-design", "UI-design", "Adobe Illustrator"],
+    "description": "A website for finding apartments in Oslo, Norway. ",
+    "image": {
+      "name": "apartment-website.jpg",
+      "alt": "Apartment website promo image"
+    },
+    "links": {
+      "case_study": "https://kariholdcroft.com/case-study-apartment-website.pdf",
+      "prototype": "https://xd.adobe.com/view/40dcb643-22d8-4168-ae1d-54797b616981-158f/?fullscreen"
+    }
+  },
+  "finance-platform": {
+    "title": "finance cross-platform service",
+    "keywords": ["UX-design", "UI-design", "Figma"],
+    "description": "A cross-platform product created to help tutor adults In financial literacy.",
+    "image": {
+      "name": "finance-platform.jpg",
+      "alt": "finance platform promo image"
+    },
+    "links": {
+      "case_study": "https://kariholdcroft.com/case-study-finance-platform.pdf",
+      "prototype": "https://www.figma.com/proto/1daTPctinGH2UrmKaHac08/finance-app?node-id=10%3A271&scaling=min-zoom&page-id=3%3A2&starting-point-node-id=10%3A271&show-proto-sidebar=1"
+    }
+  },
+
   "dragons-and-dice": {
     "title": "Dragons and Dice",
     "keywords": ["JavaScript", "HTML", "SCSS", "Adobe Illustrator"],
