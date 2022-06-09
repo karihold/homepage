@@ -25,22 +25,12 @@ const Frontpage = () => {
 
   return (
     <>
-      <GreenPageDecoration />
       <section className="frontpage-div">
         <h1 className="frontpage-h1">Kari Holdcroft</h1>
         <p className="frontpage-typed-text-p">
           <span id="typed-text"></span>
         </p>
       </section>
-      <section className="description-frontpage">
-        <div className="description-bg"> </div>
-        <p className="frontpage-p">
-          I started coding in 2018, this is a collection of some of my work so far. I am currently working as a Frontend
-          Developer with a focus on UI / UX and design @Prevas Norway. I mostly work with HTML5, CSS3 and React.js. I
-          currently use Sass as a pre-processor and typescript when working with JavaScript.
-        </p>
-      </section>
-      <h2 className="portfolio-title">PORTFOLIO</h2>
       <section id="portfolio-section" className="cards-container-medium">
         <PortfolioCard
           url="art-history-app"
@@ -100,10 +90,6 @@ const Frontpage = () => {
           title="DecoNest"
           image={{ name: 'deconest-screenshot.png', alt: 'Deconest thumbnail' }}
         />
-      </section>
-      <h2 className="portfolio-title">RESUME</h2>
-      <section id="experience-section" className="timeline-section">
-        <Timeline items={timelineData} />
       </section>
     </>
   );

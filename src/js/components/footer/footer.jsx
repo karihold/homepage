@@ -19,6 +19,7 @@ const Footer = () => {
         {/*   <a className="github-link" href="https://github.com/karihold">
           <img className="footer-icon" src={GithubIcon} alt="Github" />
         </a> */}
+        
       </div>
     </footer>
   );
