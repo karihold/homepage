@@ -7,29 +7,13 @@ import timelineData from 'data/timeline.json';
 import './frontpage.scss';
 
 const Frontpage = () => {
-  useEffect(() => {
-    new Typed('#typed-text', {
-      strings: ['UX-designer', 'UX-developer', 'Web-developer', 'Frontend developer', 'Frontend developer.'],
-      startDelay: 50,
-      typeSpeed: 60,
-      backSpeed: 50,
-      backDelay: 1000,
-      smartBackspace: true,
-      onComplete: (typewriter) => {
-        const cursor = typewriter.cursor;
-        const typedText = cursor.parentElement;
-        typedText.removeChild(cursor);
-      },
-    });
-  }, []);
+
 
   return (
     <>
       <section className="frontpage-div">
         <h1 className="frontpage-h1">Kari Holdcroft</h1>
-        <p className="frontpage-typed-text-p">
-          <span id="typed-text"></span>
-        </p>
+       <p>Frontend Developer</p>
       </section>
       <section id="portfolio-section" className="cards-container-medium">
         <PortfolioCard
