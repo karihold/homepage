@@ -3,15 +3,15 @@
     font-family: "Italiana";
     font-style: normal;
     font-weight: 400;
-    src: local(""), url("fonts/italiana-v16-latin-regular.woff2") format("woff2"),
-      url("fonts/italiana-v16-latin-regular.woff") format("woff");
+    src: local(""), url("/assets/fonts/italiana-v16-latin-regular.woff2") format("woff2"),
+      url("/assets//fonts/italiana-v16-latin-regular.woff") format("woff");
   }
   
   /* source-sans-pro-regular - latin */
   @font-face {
-    font-family: "Sans source pro";
+    font-family: "Sans-source-pro";
     font-style: normal;
     font-weight: 400;
-    src: local(""), url("fonts/source-sans-pro-v21-latin-regular.woff2") format("woff2"),
-      url("fonts/source-sans-pro-v21-latin-regular.woff") format("woff");
+    src: local(""), url("/assets/fonts/source-sans-pro-v21-latin-regular.woff2") format("woff2"),
+      url("/assets/fonts/source-sans-pro-v21-latin-regular.woff") format("woff");
   }

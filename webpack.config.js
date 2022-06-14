@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 const srcPath = path.resolve(__dirname, "./src");
 const distPath = path.resolve(__dirname, "./dist");
@@ -22,6 +23,7 @@ module.exports = (env) => ({
       landmarks: path.resolve(srcPath, "js/landmarks"),
       scss: path.resolve(srcPath, "scss/"),
       assets: path.resolve(srcPath, "assets/"),
+      images: path.resolve(srcPath, "assets/images"),
       icons: path.resolve(srcPath, "assets/icons"),
       fonts: path.resolve(srcPath, "assets/fonts"),
       illustrations: path.resolve(srcPath, "assets/illustrations"),
@@ -31,6 +33,9 @@ module.exports = (env) => ({
   },
   plugins: [
     new CleanWebpackPlugin({ verbose: true }),
+    new CopyPlugin({
+      patterns: [{ from: path.resolve(srcPath, "assets/fonts"), to: path.resolve(distPath, "assets/fonts") }],
+    }),
     new MiniCssExtractPlugin({ filename: "css/[name].css" }),
     new HtmlWebpackPlugin({
       template: path.resolve(srcPath, "./index.html"),
@@ -46,7 +51,17 @@ module.exports = (env) => ({
       },
       {
         test: /\.(scss|sass)$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"],
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: "css-loader",
+            options: {
+              url: false,
+            },
+          },
+          "postcss-loader",
+          "sass-loader",
+        ],
       },
       {
         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2)$/,

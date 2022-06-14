@@ -19,11 +19,6 @@ const Header = () => {
             </HashLink>
           </li>
           <li className="nav-item">
-            <HashLink smooth className="nav-item-link" to="/#experience-section">
-              EXPERIENCE
-            </HashLink>
-          </li>
-          <li className="nav-item">
             <Link className="nav-item-link" to="/contact">
               CONTACT
             </Link>

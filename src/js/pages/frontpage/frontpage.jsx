@@ -1,5 +1,6 @@
 import React from "react";
 import "./frontpage.scss";
+import PhoneImage from "images/phone.jpg";
 
 const Frontpage = () => {
   return (
@@ -8,10 +9,91 @@ const Frontpage = () => {
         <h1 className="frontpage-h1">Kari Holdcroft</h1>
         <p>Frontend Developer</p>
       </section>
-      <section id="portfolio-section">
-        <div className="Portfolio-project-div">
-          <p>test</p>
-        </div>
+      <section id="portfolio-project-section">
+        <article className="portfolio-project-article">
+          <h2 className="portfolio-project-h2">ART HISTORY APP</h2>
+          <h3 className="portfolio-project-h3">UX Prototype</h3>
+          <h4 className="portfolio-project-h4">2022</h4>
+          <p className="portfolio-project-p">
+            Art history app is created based on a UX-design prompt. The goal was to create an app that appeals to the
+            broader public, but also caters to the users who use the gallery the most
+          </p>
+          <img className="portfolio-project-img" src={PhoneImage} alt="Phone-image" />
+          <div className="portfolio-project-button-row">
+            <a>CASE STUDY</a>
+            <a>PROTOTYPES</a>
+          </div>
+        </article>
+        <article className="portfolio-project-article">
+          <h2 className="portfolio-project-h2">ART HISTORY APP</h2>
+          <h3 className="portfolio-project-h3">UX Prototype</h3>
+          <h4 className="portfolio-project-h4">2022</h4>
+          <p className="portfolio-project-p">
+            Art history app is created based on a UX-design prompt. The goal was to create an app that appeals to the
+            broader public, but also caters to the users who use the gallery the most
+          </p>
+          <img className="portfolio-project-img" src={PhoneImage} alt="Phone-image" />
+          <div className="portfolio-project-button-row">
+            <a>CASE STUDY</a>
+            <a>PROTOTYPES</a>
+          </div>
+        </article>
+        <article className="portfolio-project-article">
+          <h2 className="portfolio-project-h2">ART HISTORY APP</h2>
+          <h3 className="portfolio-project-h3">UX Prototype</h3>
+          <h4 className="portfolio-project-h4">2022</h4>
+          <p className="portfolio-project-p">
+            Art history app is created based on a UX-design prompt. The goal was to create an app that appeals to the
+            broader public, but also caters to the users who use the gallery the most
+          </p>
+          <img className="portfolio-project-img" src={PhoneImage} alt="Phone-image" />
+          <div className="portfolio-project-button-row">
+            <a>CASE STUDY</a>
+            <a>PROTOTYPES</a>
+          </div>
+        </article>
+        <article className="portfolio-project-article">
+          <h2 className="portfolio-project-h2">ART HISTORY APP</h2>
+          <h3 className="portfolio-project-h3">UX Prototype</h3>
+          <h4 className="portfolio-project-h4">2022</h4>
+          <p className="portfolio-project-p">
+            Art history app is created based on a UX-design prompt. The goal was to create an app that appeals to the
+            broader public, but also caters to the users who use the gallery the most
+          </p>
+          <img className="portfolio-project-img" src={PhoneImage} alt="Phone-image" />
+          <div className="portfolio-project-button-row">
+            <a>CASE STUDY</a>
+            <a>PROTOTYPES</a>
+          </div>
+        </article>
+        <article className="portfolio-project-article">
+          <h2 className="portfolio-project-h2">ART HISTORY APP</h2>
+          <h3 className="portfolio-project-h3">UX Prototype</h3>
+          <h4 className="portfolio-project-h4">2022</h4>
+          <p className="portfolio-project-p">
+            Art history app is created based on a UX-design prompt. The goal was to create an app that appeals to the
+            broader public, but also caters to the users who use the gallery the most
+          </p>
+          <img className="portfolio-project-img" src={PhoneImage} alt="Phone-image" />
+          <div className="portfolio-project-button-row">
+            <a>CASE STUDY</a>
+            <a>PROTOTYPES</a>
+          </div>
+        </article>
+        <article className="portfolio-project-article">
+          <h2 className="portfolio-project-h2">ART HISTORY APP</h2>
+          <h3 className="portfolio-project-h3">UX Prototype</h3>
+          <h4 className="portfolio-project-h4">2022</h4>
+          <p className="portfolio-project-p">
+            Art history app is created based on a UX-design prompt. The goal was to create an app that appeals to the
+            broader public, but also caters to the users who use the gallery the most
+          </p>
+          <img className="portfolio-project-img" src={PhoneImage} alt="Phone-image" />
+          <div className="portfolio-project-button-row">
+            <a>CASE STUDY</a>
+            <a>PROTOTYPES</a>
+          </div>
+        </article>
       </section>
     </>
   );
