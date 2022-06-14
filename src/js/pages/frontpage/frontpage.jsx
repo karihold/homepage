@@ -8,6 +8,11 @@ const Frontpage = () => {
         <h1 className="frontpage-h1">Kari Holdcroft</h1>
         <p>Frontend Developer</p>
       </section>
+      <section id="portfolio-section">
+        <div className="Portfolio-project-div">
+          <p>test</p>
+        </div>
+      </section>
     </>
   );
 };
