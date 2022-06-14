@@ -24,6 +24,7 @@ module.exports = (env) => ({
       assets: path.resolve(srcPath, "assets/"),
       icons: path.resolve(srcPath, "assets/icons"),
       fonts: path.resolve(srcPath, "assets/fonts"),
+      illustrations: path.resolve(srcPath, "assets/illustrations"),
       variables: path.resolve(srcPath, "scss/variables"),
     },
     extensions: [".js", ".jsx"],
