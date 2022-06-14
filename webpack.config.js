@@ -22,6 +22,8 @@ module.exports = (env) => ({
       landmarks: path.resolve(srcPath, "js/landmarks"),
       scss: path.resolve(srcPath, "scss/"),
       assets: path.resolve(srcPath, "assets/"),
+      icons: path.resolve(srcPath, "assets/icons"),
+      fonts: path.resolve(srcPath, "assets/fonts"),
       variables: path.resolve(srcPath, "scss/variables"),
     },
     extensions: [".js", ".jsx"],

@@ -16,7 +16,6 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" index element={<Frontpage />} />
-          <Route path="portfolio/:page" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -10,10 +10,10 @@
     "not dead"
   ],
   "scripts": {
-      "start": "npm run build:dev && npm run dev-server",
-      "build:dev": "webpack --config webpack.config.js --env development mode=development",
-      "build:prod": "webpack --config webpack.config.js --env production mode=production",
-      "dev-server": "webpack serve --config webpack.config.js --env development mode=development"
+    "start": "npm run build:dev && npm run dev-server",
+    "build:dev": "webpack --config webpack.config.js --env development mode=development",
+    "build:prod": "webpack --config webpack.config.js --env production mode=production",
+    "dev-server": "webpack serve --config webpack.config.js --env development mode=development"
   },
   "author": "karihold",
   "license": "ISC",
@@ -45,6 +45,7 @@
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "react-router-hash-link": "^2.4.3"
   }
 }
