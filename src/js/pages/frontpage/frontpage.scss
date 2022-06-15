@@ -13,20 +13,45 @@ body {
 }
 body {
   background-color: $white;
+  color: $black;
+
 }
 
-#render-target {
+#render {
   min-height: 100vh;
-  display: flex;
-  flex-flow: column;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: auto;
 }
 
 main {
-  flex-grow: 1;
+  grid-column: 2/3;
 }
 
 ul {
   list-style: none;
+}
+
+//title
+.frontpage-title-div {
+width: fit-content;
+margin: 0 auto;
+margin-top: 15vh;
+margin-bottom: 30vh;
+}
+
+.frontpage-title-h1 {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+
+  font-family: Italiana;
+  font-weight: 200;
+  font-size: 10em;
+}
+
+.frontpage-title-p {
+  font-size: 4.8em;
 }
 
 //portfolio project
@@ -39,3 +64,5 @@ ul {
   height: auto;
   border-radius: 50%;
 }
+
+//portfolio

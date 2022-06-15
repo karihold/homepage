@@ -5,9 +5,11 @@ import PhoneImage from "images/phone.jpg";
 const Frontpage = () => {
   return (
     <>
-      <section className="frontpage-div">
-        <h1 className="frontpage-h1">Kari Holdcroft</h1>
-        <p>Frontend Developer</p>
+      <section className="frontpage-title-div">
+        <h1 className="frontpage-title-h1">
+          Kari <span>Holdcroft</span>
+        </h1>
+        <p className="frontpage-title-p">Frontend Developer</p>
       </section>
       <section id="portfolio-project-section">
         <article className="portfolio-project-article">
@@ -90,8 +92,8 @@ const Frontpage = () => {
           </p>
           <img className="portfolio-project-img" src={PhoneImage} alt="Phone-image" />
           <div className="portfolio-project-button-row">
-            <a>CASE STUDY</a>
-            <a>PROTOTYPES</a>
+            <a className="casestudy-button">CASE STUDY</a>
+            <a className="prototype-button">PROTOTYPES</a>
           </div>
         </article>
       </section>

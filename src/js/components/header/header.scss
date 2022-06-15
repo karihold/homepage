@@ -1,20 +1,7 @@
 @import "variables";
 
 header {
-  display: flex;
-  flex-flow: row nowrap;
-  color: black;
-  padding: 30px 0 0;
-
-  @media (max-width: 930px) {
-    // justify-content: space-between;
-  }
-
-  @media (max-width: 792px) {
-    flex-flow: column;
-    justify-content: flex-start;
-    padding-left: 20px;
-  }
+  grid-column: 2/3;
 }
 
 //logo
@@ -62,51 +49,9 @@ header {
 
 .nav-ul {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  grid-gap: 80px;
-  margin-left: 110px;
-
   list-style: none;
-
-  @media (max-width: 1890px) {
-    margin-left: 20px;
-  }
-
-  @media (max-width: 1740px) {
-    grid-gap: 50px;
-  }
-
-  @media (max-width: 1574px) {
-    grid-gap: 40px;
-  }
-
-  @media (max-width: 1522px) {
-    grid-gap: 80px;
-    margin-left: 110px;
-  }
-
-  @media (max-width: 1200px) {
-    grid-row-gap: 16px;
-    grid-gap: 60px;
-  }
-
-  @media (max-width: 1024px) {
-    grid-template-columns: repeat(4, 1fr);
-    margin-left: 70px;
-  }
-
-  @media (max-width: 900px) {
-    grid-template-columns: repeat(4, 1fr);
-    margin-left: 40px;
-    grid-gap: 40px;
-  }
-
-  @media (max-width: 792px) {
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 15px;
-    grid-gap: 20px;
-  }
 }
 
 .nav-item {
@@ -128,17 +73,5 @@ header {
 
   &:hover {
     opacity: 0.6;
-  }
-
-  @media (max-width: 1522px) {
-    color: white;
-  }
-
-  @media (max-width: 1441px) {
-    font-size: 20px;
-  }
-
-  @media (max-width: 1021px) {
-    height: calc(30vh + 6px);
   }
 }
