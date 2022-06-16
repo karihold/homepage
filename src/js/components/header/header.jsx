@@ -14,7 +14,7 @@ const Header = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <HashLink smooth className="nav-item-link" to="/#portfolio-section">
+            <HashLink smooth className="nav-item-link" to="/#portfolio-project-section">
               PORTFOLIO
             </HashLink>
           </li>

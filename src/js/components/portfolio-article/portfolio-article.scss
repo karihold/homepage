@@ -1,0 +1,23 @@
+.portfolio-project-article {
+  position: relative;
+}
+
+.portfolio-project-img {
+  $img-size: 100px;
+
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: $img-size;
+  height: $img-size;
+  transform: translate(50%, -50%);
+}
+
+.portfolio-article-illustration {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  left: 60px;
+  bottom: -70%;
+  //transform: translateY(100%);
+}

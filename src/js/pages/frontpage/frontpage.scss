@@ -14,7 +14,6 @@ body {
 body {
   background-color: $white;
   color: $black;
-
 }
 
 #render {
@@ -22,6 +21,7 @@ body {
   display: grid;
   grid-template-columns: 20% 60% 20%;
   grid-template-rows: auto;
+  position: relative;
 }
 
 main {
@@ -34,10 +34,10 @@ ul {
 
 //title
 .frontpage-title-div {
-width: fit-content;
-margin: 0 auto;
-margin-top: 15vh;
-margin-bottom: 30vh;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 15vh;
+  margin-bottom: 30vh;
 }
 
 .frontpage-title-h1 {
@@ -56,7 +56,7 @@ margin-bottom: 30vh;
 
 //portfolio project
 .portfolio-project-article {
-  background-color:$beige;
+  background-color: $beige;
 }
 
 .portfolio-project-img {
@@ -65,4 +65,31 @@ margin-bottom: 30vh;
   border-radius: 50%;
 }
 
+#frontpage-illustration {
+  position: absolute;
+  top: 100vh;
+  right: 0;
+  width: 20%;
+  height: auto;
+  transform: translate(0, -70%);
+}
+
+#down-arrow-icon {
+  $size: 116px;
+
+  margin: 0 auto 60px;
+
+  display: block;
+
+  width: $size;
+  height: $size;
+}
+
 //portfolio
+#portfolio-project-section {
+  margin: 0 auto;
+  width: 100vh;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}

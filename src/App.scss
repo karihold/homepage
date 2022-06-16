@@ -13,15 +13,21 @@ body {
 }
 body {
   background-color: #fffffe;
+  position: relative;
+  
 }
-
-#render-target {
-  min-height: 100vh;
-  display: flex;
-  flex-flow: column;
-}
-
 
 ul {
   list-style: none;
 }
+
+
+//illustrations
+#header-illustration {
+  position: absolute;
+  left:0;
+  top: -10px;
+  width: 40vh;
+  height: auto;
+}
+
