@@ -1,6 +1,11 @@
 import React from "react";
-import PortfolioSectionIllustration from "assets/illustrations/portfolio-section-illustration.svg";
+import PortfolioSectionIllustration from "illustrations/portfolio-section-illustration.svg";
 import "./portfolio-article.scss";
+
+import WebsiteIcon from "icons/website-icon.svg";
+import CasestudyIcon from "icons/casestudy-icon.svg";
+import GithubIcon from "icons/github-icon.svg";
+import PrototypeIcon from "icons/prototype-icon.svg";
 
 const PortfolioArticle = ({
   mainTitle,
@@ -28,10 +33,33 @@ const PortfolioArticle = ({
       <p className="portfolio-project-p">{description}</p>
       <img className="portfolio-project-img" src={image} alt={imageAlt} />
       <div className="portfolio-project-button-row">
-        {website && <a href={website}>Website</a>}
-        {caseStudy && <a href={caseStudy}>Case study</a>}
-        {prototype && <a href={prototype}>Prototype</a>}
-        {github && <a href={github}>Github</a>}
+        {website && (
+          <a className="portofolio-project-icons-a" href={website}>
+            <img className="website-icon" src={WebsiteIcon} />
+            Website
+          </a>
+        )}
+        {caseStudy && (
+          <a className="portofolio-project-icons-a" href={caseStudy}>
+            {" "}
+            <img className="casestudy-icon" src={CasestudyIcon} />
+            Case study
+          </a>
+        )}
+        {prototype && (
+          <a className="portofolio-project-icons-a" href={prototype}>
+            {" "}
+            <img className="prototype-icon" src={PrototypeIcon} />
+            Prototype
+          </a>
+        )}
+        {github && (
+          <a className="portofolio-project-icons-a" href={github}>
+            {" "}
+            <img className="github-icon" src={GithubIcon} />
+            Github
+          </a>
+        )}
       </div>
       <img className="portfolio-article-illustration" src={PortfolioSectionIllustration} />
     </article>

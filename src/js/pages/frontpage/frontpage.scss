@@ -72,12 +72,6 @@ ul {
   background-color: $beige;
 }
 
-.portfolio-project-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-
 #frontpage-illustration {
   position: absolute;
   top: 100vh;
@@ -96,13 +90,4 @@ ul {
 
   width: $size;
   height: $size;
-}
-
-//portfolio
-#portfolio-project-section {
-  margin: 0 auto;
-  width: 100vh;
-  display: flex;
-  flex-flow: column;
-  gap: 20px;
 }
