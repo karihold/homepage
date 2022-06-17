@@ -4,36 +4,6 @@ header {
   grid-column: 2/3;
 }
 
-//logo
-.logo-section {
-  margin-left: 50px;
-
-  @media (max-width: 520px) {
-    flex-flow: column;
-    justify-content: flex-start;
-  }
-
-  @media (max-width: 520px) {
-    margin-left: 0;
-  }
-}
-
-.logo-image {
-  width: 100px;
-  height: 115px;
-
-  @media (max-width: 1441px) {
-    width: 100px;
-    height: 80px;
-  }
-
-  @media (max-width: 606px) {
-    margin-left: 0;
-    width: 100px;
-    height: 60px;
-  }
-}
-
 //nav
 .header-nav {
   margin-top: 40px;

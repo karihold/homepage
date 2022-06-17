@@ -3,18 +3,16 @@ footer {
 }
 
 .footer-icon {
-    width: 30px;
-    margin-left: 10px;
-  
-    &:hover {
-      transform: scale(0.95);
-    }
+  width: 30px;
+  gap: 10px;
+
+  &:hover {
+    transform: scale(0.95);
   }
-  
-  .footer-icons {
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-  }
-  
-  
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
