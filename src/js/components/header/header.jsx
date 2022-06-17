@@ -25,6 +25,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <div>
+        <p className="darkmode-indicator">Darkmode</p>
+      </div>
     </header>
   );
 };

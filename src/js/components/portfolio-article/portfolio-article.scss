@@ -30,7 +30,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 1.5em;
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 
 .portfolio-project-h3 {
@@ -42,7 +42,7 @@
 }
 
 .portfolio-project-keywords {
-  margin-bottom: 6vh;
+  margin-bottom: 5vh;
   width: 50%;
   display: flex;
   flex-flow: row wrap;
@@ -79,11 +79,11 @@
 }
 
 .portfolio-article-illustration {
-  width: 60px;
+  width: 30px;
   height: auto;
   position: absolute;
   left: 60px;
-  bottom: -70%;
+  bottom: -5%;
   //transform: translateY(100%);
 }
 
