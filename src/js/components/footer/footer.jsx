@@ -13,6 +13,7 @@ const Footer = () => {
     <></>
   ) : (
     <footer>
+      <hr id="footer-top-line" />
       <section className="footer-text-section">
         <h3 className="footer-h3">About</h3>
         <p className="footer-p">
@@ -25,7 +26,7 @@ const Footer = () => {
         <a className="footer-links">Contact</a>
         <a className="footer-links">Gallery</a>
       </section>
-      <div className="footer-line"></div>
+      <hr className="footer-line"></hr>
       <section className="footer-icons">
         <a className="linkedin-black-link" href="https://www.linkedin.com/in/kariholdcroft/">
           <img className="footer-icon linkedin-icon" src={LinkedInIcon} alt="LinkedIn" />

@@ -6,6 +6,10 @@ import "./header.scss";
 const Header = () => {
   return (
     <header className="header">
+      <HashLink smooth className="darkmode-indicator" to="">
+        DARKMODE
+      </HashLink>
+
       <nav className="header-nav">
         <ul className="nav-ul">
           <li className="nav-item">
@@ -25,9 +29,6 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div>
-        <p className="darkmode-indicator">Darkmode</p>
-      </div>
     </header>
   );
 };

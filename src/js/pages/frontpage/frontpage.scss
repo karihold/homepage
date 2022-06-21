@@ -91,3 +91,43 @@ ul {
   width: $size;
   height: $size;
 }
+
+#portfolio-project-section {
+  //portfiolo-article reverse styling
+  .portfolio-project-article {
+    &:nth-of-type(even) {
+      align-items: flex-end;
+
+      .portfolio-project-header-and-keywords {
+        width: fit-content;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+      }
+
+      .portfolio-project-header {
+        align-self: flex-end;
+      }
+
+      .portfolio-project-keywords {
+        align-self: flex-end;
+        justify-content: flex-end;
+      }
+
+      .portfolio-project-p {
+        text-align: right;
+      }
+
+      .portfolio-project-img {
+        left: 0;
+        right: initial;
+        transform: translate(-50%, -50%);
+      }
+
+      .portfolio-article-illustration {
+        left: initial;
+        right: 60px;
+      }
+    }
+  }
+}

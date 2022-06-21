@@ -2,13 +2,23 @@
 @import "variables";
 
 footer {
+  margin-top: 10vh;
   grid-column: 2/3;
 }
 
+#footer-top-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.footer-text-section {
+  margin-top: 5vh;
+}
+
 .footer-line {
-  margin-top: 10px;
-  background-color: $black;
-  height: 1px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .footer-icon {
@@ -29,6 +39,6 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px;
   gap: 10px;
+  margin-bottom: 2em;
 }

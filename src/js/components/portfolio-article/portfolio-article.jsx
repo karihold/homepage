@@ -22,18 +22,21 @@ const PortfolioArticle = ({
 }) => {
   return (
     <article className="portfolio-project-article">
-      <h2 className="portfolio-project-h2">{mainTitle}</h2>
-      <section className="portfolio-project-subheaders">
-        {" "}
-        <h3 className="portfolio-project-h3">{subheading}</h3>
-        <h3 className="portfolio-project-h4">{year}</h3>
-      </section>
+      <div className="portfolio-project-header-and-keywords">
+        <section className="portfolio-project-header">
+          <h2 className="portfolio-project-h2">{mainTitle}</h2>
+          <section className="portfolio-project-subheaders">
+            <h3 className="portfolio-project-h3">{subheading}</h3>
+            <h3 className="portfolio-project-h4">{year}</h3>
+          </section>
+        </section>
+        <ul className="portfolio-project-keywords">
+          {keywords.map((keyword) => (
+            <li className="portofolio-project-keyword">{keyword}</li>
+          ))}
+        </ul>
+      </div>
 
-      <ul className="portfolio-project-keywords">
-        {keywords.map((keyword) => (
-          <li className="portofolio-project-keyword">{keyword}</li>
-        ))}
-      </ul>
       <p className="portfolio-project-p">{description}</p>
       <img className="portfolio-project-img" src={image} alt={imageAlt} />
       <div className="portfolio-project-button-row">

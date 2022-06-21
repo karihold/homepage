@@ -7,30 +7,35 @@
   width: 61vh;
   display: flex;
   flex-flow: column;
-  gap: 20px;
+  gap: 15vh;
 }
 
 .portfolio-project-article {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
   padding: 1.5em;
   position: relative;
   width: 100%;
-  height: 67vh;
+  height: 62vh;
+}
+
+.portfolio-project-header {
+  width: fit-content;
 }
 
 .portfolio-project-h2 {
-  font-size: 3.5em;
+  font-size: 3em;
   margin-top: 5vh;
   color: $gold;
 }
 
 .portfolio-project-subheaders {
-  width: 44%;
   display: flex;
   flex-flow: row nowrap;
   display: flex;
   justify-content: space-between;
   font-size: 1.5em;
-  margin-bottom: 3vh;
 }
 
 .portfolio-project-h3 {
@@ -42,12 +47,12 @@
 }
 
 .portfolio-project-keywords {
-  margin-bottom: 5vh;
-  width: 50%;
+  margin-top: 2vh;
+  width: 58%;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  gap: 7px 9px;
+  gap: 7px 11px;
 }
 
 .portofolio-project-keyword {
@@ -59,14 +64,13 @@
 }
 
 .portfolio-project-p {
-  width: 45%;
-  margin-bottom: 10vh;
+  width: 43%;
   font-size: 1.3em;
   line-height: 1.5;
 }
 
 .portfolio-project-img {
-  $img-size: 62vh;
+  $img-size: 58vh;
 
   position: absolute;
   right: 0;
@@ -92,6 +96,7 @@
   display: flex;
   flex-flow: row nowrap;
   gap: 20px;
+  margin-bottom: 5vh;
 }
 
 .portofolio-project-icons-a {
@@ -102,6 +107,9 @@
   height: 80px;
   text-decoration: none;
   color: $black;
+  &:hover {
+    transform: scale(0.95);
+  }
 }
 .prototype-icon {
   width: 74px;
