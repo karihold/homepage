@@ -28,15 +28,14 @@ const Footer = () => {
       <div className="footer-line"></div>
       <section className="footer-icons">
         <a className="linkedin-black-link" href="https://www.linkedin.com/in/kariholdcroft/">
-          <img className="footer-icon" src={LinkedInIcon} alt="LinkedIn" />
+          <img className="footer-icon linkedin-icon" src={LinkedInIcon} alt="LinkedIn" />
         </a>
         <a className="github-black-link" href="https://github.com/karihold">
           <img className="footer-icon" src={GithubIcon} alt="Github" />
         </a>
         <a className="email-black-link" href="https://www.linkedin.com/in/kariholdcroft/">
-          <img className="footer-icon" src={EmailIcon} alt="LinkedIn" />
-        </a>{" "}
-        *
+          <img className="footer-icon email-icon" src={EmailIcon} alt="LinkedIn" />
+        </a>
       </section>
     </footer>
   );
