@@ -1,0 +1,21 @@
+@import "../../../scss/fonts.scss";
+@import "variables";
+
+.contact-icon {
+  width: 30px;
+  &:hover {
+    transform: scale(0.95);
+  }
+}
+
+.linkedin-icon {
+  width: 27px;
+}
+
+.email-icon {
+  width: 34px;
+}
+.contact-icons {
+  gap: 10px;
+  margin-bottom: 2em;
+}

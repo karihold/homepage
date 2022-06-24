@@ -22,7 +22,7 @@ const Header = () => {
               PORTFOLIO
             </HashLink>
           </li>
-          <li className="nav-item">
+          <li className="nav-item contact-nav">
             <Link className="nav-item-link" to="/contact">
               CONTACT
             </Link>
