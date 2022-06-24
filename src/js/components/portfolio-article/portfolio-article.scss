@@ -104,9 +104,11 @@
   object-fit: cover;
   border-radius: 50%;
   transform: translate(50%, -50%);
+  box-shadow: 5px 5px 10px gray;
+  filter: grayscale(50%);
 
   @media only screen and (max-width: 1200px) {
-    $img-size: 51vh;
+    $img-size: 50vh;
     width: $img-size;
     height: $img-size;
   }
