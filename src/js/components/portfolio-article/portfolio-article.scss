@@ -45,6 +45,11 @@
   }
 }
 
+.portfolio-line {
+  border: none;
+  border-top: 1px solid $black;
+}
+
 .portfolio-project-header {
   width: fit-content;
 }

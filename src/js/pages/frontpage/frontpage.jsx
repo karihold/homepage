@@ -26,6 +26,7 @@ const Frontpage = () => {
         <h1 className="frontpage-title-h1">
           Kari <span>Holdcroft</span>
         </h1>
+        <hr id="frontpage-header-line" />
         <p className="frontpage-title-p">Frontend Developer</p>
       </section>
       <section className="down-arrow-section">
