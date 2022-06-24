@@ -4,10 +4,30 @@
 //portfolio
 #portfolio-project-section {
   margin: 0 auto;
-  width: 61vh;
+  width: 50%;
   display: flex;
   flex-flow: column;
   gap: 15vh;
+
+  @media only screen and (max-width: 2296px) {
+    width: 60%;
+  }
+
+  @media only screen and (max-width: 1920px) {
+    width: 70%;
+  }
+
+  @media only screen and (max-width: 1688px) {
+    width: 80%;
+  }
+
+  @media only screen and (max-width: 1500px) {
+    width: 90%;
+  }
+
+  @media only screen and (max-width: 1300px) {
+    width: 100%;
+  }
 }
 
 .portfolio-project-article {
@@ -17,7 +37,12 @@
   padding: 1.5em;
   position: relative;
   width: 100%;
-  height: 62vh;
+  height: 60vh;
+
+  @media only screen and (max-width: 1200px) {
+    width: 90%;
+    height: 65vh;
+  }
 }
 
 .portfolio-project-header {
@@ -48,10 +73,9 @@
 
 .portfolio-project-keywords {
   margin-top: 2vh;
-  width: 58%;
+  width: 55%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
   gap: 7px 11px;
 }
 
@@ -64,13 +88,13 @@
 }
 
 .portfolio-project-p {
-  width: 43%;
+  width: 50%;
   font-size: 1.3em;
   line-height: 1.5;
 }
 
 .portfolio-project-img {
-  $img-size: 58vh;
+  $img-size: 55vh;
 
   position: absolute;
   right: 0;
@@ -80,6 +104,12 @@
   object-fit: cover;
   border-radius: 50%;
   transform: translate(50%, -50%);
+
+  @media only screen and (max-width: 1200px) {
+    $img-size: 51vh;
+    width: $img-size;
+    height: $img-size;
+  }
 }
 
 .portfolio-article-illustration {
