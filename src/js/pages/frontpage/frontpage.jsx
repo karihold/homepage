@@ -2,7 +2,6 @@ import React from "react";
 import { HashLink } from "react-router-hash-link";
 import "./frontpage.scss";
 
-import PhoneImage from "images/phone.jpg";
 import ArtHistoryImage from "images/art-history.jpg";
 import ApartmentWebsiteImage from "images/apartment-website.jpg";
 import FinancePlatformImage from "images/finance-platform.jpg";
@@ -18,6 +17,7 @@ import FrontpageIllustration from "assets/illustrations/frontpage-illustration.s
 import DownArrowIcon from "assets/icons/down-arrow-icon.svg";
 
 import PortfolioArticle from "components/portfolio-article/portfolio-article";
+
 const Frontpage = () => {
   return (
     <>
