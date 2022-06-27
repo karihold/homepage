@@ -110,7 +110,7 @@ const Frontpage = () => {
           mainTitle="MISSION TO MARS"
           subheading="Microsite"
           year="2019"
-          description="The assigment was to create a microsite for SpaceX with the focus on their mission to get to mars to make life multiplanetary"
+          description="The assigment was to create a microsite designed to prompt users to sign up for the Mission to Mars Newsletter for SpaceX focusing on their mission to get to mars to make life multiplanetary"
           image={SpaceXImage}
           imageAlt="Mission to mars"
           keywords={["React", "HTML", "SCSS", "Adobe Creative Cloud"]}
