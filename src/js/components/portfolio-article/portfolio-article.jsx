@@ -43,28 +43,28 @@ const PortfolioArticle = ({
       <div className="portfolio-project-button-row">
         {website && (
           <a className="portofolio-project-icons-a" href={website}>
-            <img className="website-icon" src={WebsiteIcon} />
+            <img className="portfolio-icon-img" src={WebsiteIcon} />
             Website
           </a>
         )}
         {caseStudy && (
           <a className="portofolio-project-icons-a" href={caseStudy}>
             {" "}
-            <img className="casestudy-icon" src={CasestudyIcon} />
+            <img className="portfolio-icon-img" src={CasestudyIcon} />
             Case study
           </a>
         )}
         {prototype && (
           <a className="portofolio-project-icons-a" href={prototype}>
             {" "}
-            <img className="prototype-icon" src={PrototypeIcon} />
+            <img className="portfolio-icon-img" src={PrototypeIcon} />
             Prototype
           </a>
         )}
         {github && (
           <a className="portofolio-project-icons-a" href={github}>
             {" "}
-            <img className="github-icon" src={GithubIcon} />
+            <img className="portfolio-icon-img" src={GithubIcon} />
             Github
           </a>
         )}
