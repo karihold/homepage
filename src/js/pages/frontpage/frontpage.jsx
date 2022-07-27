@@ -45,7 +45,7 @@ const Frontpage = () => {
           image={ArtHistoryImage}
           imageAlt="Art history app"
           keywords={["UX-design", "UI-design", "UX-research", "figma", "prototyping"]}
-          caseStudy="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://kariholdcroft.com/case-study-art-history-app.pdf"
+          caseStudy="https://kariholdcroft.com/case-study-art-history-app.pdf"
           prototype="https://www.figma.com/proto/wwYr6TQUnkF26TobuzP4OX/Art-History-App?node-id=155%3A680&scaling=min-zoom&page-id=154%3A127&starting-point-node-id=155%3A680&show-proto-sidebar=1"
         />
 
@@ -57,7 +57,7 @@ const Frontpage = () => {
           image={ApartmentWebsiteImage}
           imageAlt="apartment-website"
           keywords={["UX-design", "UI-design", "UX-research", "figma", "prototyping", "Adobe Creative Cloud"]}
-          caseStudy="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://kariholdcroft.com/case-study-apartment-website.pdf"
+          caseStudy="https://kariholdcroft.com/case-study-apartment-website.pdf"
           prototype="https://xd.adobe.com/view/40dcb643-22d8-4168-ae1d-54797b616981-158f/?fullscreen"
         />
 
@@ -69,7 +69,7 @@ const Frontpage = () => {
           image={FinancePlatformImage}
           imageAlt="finance cross-platform service"
           keywords={["UX-design", "UI-design", "UX-research", "figma", "prototyping", "Adobe Creative Cloud"]}
-          caseStudy="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://kariholdcroft.com/case-study-finance-platform.pdf"
+          caseStudy="https://kariholdcroft.com/case-study-finance-platform.pdf"
           prototype="https://www.figma.com/proto/1daTPctinGH2UrmKaHac08/finance-app?node-id=10%3A271&scaling=min-zoom&page-id=3%3A2&starting-point-node-id=10%3A271&show-proto-sidebar=1"
         />
 
