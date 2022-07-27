@@ -138,17 +138,6 @@ const Frontpage = () => {
           keywords={["HTML", "SCSS", "Adobe Creative Cloud"]}
           website="https://kariholdcroft.com/science-museum/"
         />
-
-        <PortfolioArticle
-          mainTitle="DECONEST WEBSITE"
-          subheading="Ecommerce store"
-          year="2019"
-          description="DecoNest is a home interior store, focusing on luxury items of high quality"
-          image={DeconestImage}
-          imageAlt="Deconest web store"
-          keywords={["HTML", "SCSS", "Adobe Creative Cloud"]}
-          //website="https://kariholdcroft.com/deconest/"
-        />
       </section>
     </>
   );
